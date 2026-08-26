@@ -1,0 +1,30 @@
+FITMAP EDGEFIT PUBLIC TECHNICAL SHOWCASE LICENSE
+
+Copyright (c) 2026 FITMAP. All rights reserved.
+
+Permission is granted to view, download, and evaluate the materials in this
+repository for hackathon judging, technical review, educational inspection,
+and other non-commercial evaluation purposes.
+
+Unless separately authorized in writing, no permission is granted to:
+
+1. use FITMAP-specific source or materials in a commercial product or service;
+2. redistribute or sublicense proprietary FITMAP technology;
+3. extract, reconstruct, reproduce, or derive FITMAP model weights, training
+   methods, calibration methods, sizing logic, fit logic, or retailer logic;
+4. use these materials to build or train a competing commercial system; or
+5. remove or misrepresent this notice.
+
+The repository intentionally excludes proprietary trained model assets,
+training data, calibration values, production sizing logic, retailer-private
+data, and other commercial FITMAP implementation details.
+
+Third-party dependencies, trademarks, and platforms are governed by their
+respective owners and licenses. No rights to third-party marks are granted by
+this notice.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY
+ARISING FROM THE MATERIALS OR THEIR USE.

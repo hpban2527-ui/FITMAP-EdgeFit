@@ -1,0 +1,24 @@
+FITMAP EDGEFIT — SANITIZED FINAL HARDWARE FREEZE EXTRACT
+
+Physical target: Arduino UNO Q 2GB
+aarch64 runtime: PASS
+Python 3.13.5: validated
+PyTorch 2.11.0+cpu: validated
+NumPy 2.5.1: validated
+OpenCV 4.13.0: validated
+Pillow 12.3.0: validated
+
+Final launcher preflight:
+PowerShell parse: PASS
+Local-file preflight: PASS
+Python compile: PASS
+UNO Q ADB: PASS
+UNO Q golden runtime: PASS
+Rapoo C280 preflight: PASS
+Presentation launch: PASS
+Fresh camera-first flow: PASS
+
+VERDICT: FINAL LAUNCHER PASS
+
+This public extract omits device paths, checkpoint hashes, demo captures,
+and proprietary deployment files.

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fitmap:edgefit:public-result:v1",
+  "title": "FITMAP EdgeFit Public Result",
+  "type": "object",
+  "required": ["status", "measurements_cm"],
+  "properties": {
+    "status": {"type": "string", "minLength": 1},
+    "measurements_cm": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["bust", "waist", "hip"],
+          "properties": {
+            "bust": {"type": "number"},
+            "waist": {"type": "number"},
+            "hip": {"type": "number"}
+          },
+          "additionalProperties": false
+        },
+        {"type": "null"}
+      ]
+    },
+    "shape": {"type": ["string", "null"]},
+    "recommended_size": {"type": ["string", "null"]},
+    "regional_fit": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "chest": {"type": "string"},
+            "waist": {"type": "string"},
+            "hip": {"type": "string"}
+          },
+          "additionalProperties": {"type": "string"}
+        },
+        {"type": "null"}
+      ]
+    },
+    "execution_target": {"type": ["string", "null"]},
+    "message": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

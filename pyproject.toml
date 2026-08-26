@@ -1,0 +1,9 @@
+[project]
+name = "fitmap-edgefit-public"
+version = "1.0.0"
+description = "Public technical-showcase interfaces for FITMAP EdgeFit on Arduino UNO Q"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

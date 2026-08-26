@@ -1,0 +1,62 @@
+{
+  "release": "FITMAP EdgeFit competition validation summary",
+  "host_validation": {
+    "complete_v1_0_1_suite": {
+      "passed": 32,
+      "duration_seconds": 11.62
+    },
+    "original_regression_suite_after_patch": {
+      "passed": 24,
+      "duration_seconds": 10.9
+    },
+    "training_oracle_preprocessing": {
+      "comparisons": 126,
+      "exact": true,
+      "max_abs_diff": 0.0
+    },
+    "runtime_preprocessing": {
+      "comparisons": 126,
+      "exact": true,
+      "max_abs_diff": 0.0
+    },
+    "runtime_silhouette": {
+      "comparisons": 126,
+      "exact": true
+    }
+  },
+  "physical_uno_q_parity": {
+    "cases_executed": 10,
+    "measurements_compared": 30,
+    "semantic_all_exact": true,
+    "provenance_all_exact": true,
+    "global_max_abs_diff_cm": 1.52587890625e-05,
+    "global_mean_abs_diff_cm": 4.069010416666667e-06,
+    "max_float32_ulp_distance": 2
+  },
+  "frozen_live_path": {
+    "rapoo_c280_preflight": "PASS",
+    "guided_front_capture": "PASS",
+    "guided_side_capture": "PASS",
+    "automatic_capture_to_uno_q_handoff": "PASS",
+    "physical_uno_q_inference": "PASS",
+    "structured_result_bridge": "PASS",
+    "recommended_size": "PASS",
+    "regional_fit": "PASS",
+    "session_cleanup": "PASS",
+    "cold_start_live_rehearsal": "PASS"
+  },
+  "accuracy_statement": "Deployment parity only; real-world human measurement accuracy is not established by these results.",
+  "physical_runtime_environment": {
+    "architecture": "aarch64",
+    "python": "3.13.5",
+    "torch": "2.11.0+cpu",
+    "numpy": "2.5.1",
+    "opencv": "4.13.0",
+    "pillow": "12.3.0"
+  },
+  "public_evidence_files": [
+    "host_test_summary.txt",
+    "unoq_parity_summary.txt",
+    "hardware_freeze_summary.txt"
+  ]
+}

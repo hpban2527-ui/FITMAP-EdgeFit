@@ -1,0 +1,17 @@
+FITMAP EDGEFIT — SANITIZED PHYSICAL UNO Q PARITY EXTRACT
+
+Selection: 10 deterministic reference cases
+Cases executed: 10
+Measurements compared: 30
+Semantic agreement: 10/10
+Provenance agreement: 10/10
+Global maximum absolute difference: 1.52587890625e-05 cm
+Global mean absolute difference: 4.069010416666667e-06 cm
+Maximum float32 ULP distance: 2
+
+VERDICT: PASS
+
+Interpretation: deployment parity on the tested deterministic cases.
+This is not a real-world body-measurement accuracy benchmark.
+
+Individual reference-case outputs and proprietary runtime provenance are omitted.

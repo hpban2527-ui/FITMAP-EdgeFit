@@ -1,0 +1,23 @@
+FITMAP EDGEFIT — SANITIZED HOST VALIDATION EXTRACT
+
+Source stage: Reference Baseline Patch v1.0.1
+
+Pre-patch regression suite:
+24 passed in 12.43s
+
+New targeted tests:
+8 passed in 2.05s
+
+Post-patch original regression suite:
+24 passed in 10.90s
+
+Post-patch complete suite:
+32 passed in 11.62s
+
+Focused regression-protection subset:
+17 passed in 8.11s
+
+VERDICT: PASS
+
+This public extract omits internal checkpoint hashes, authority-file hashes,
+private source diffs, model implementation details, and internal paths.
